@@ -10,10 +10,22 @@ const WHATSAPP_NUMBER = "919443261234"; // Classic Store's phone number (with co
 // Product Database
 const products = [
   {
-    id: "prod-1",`r`n    name: "Cheerful Pikachu Soft Toy",`r`n    category: "teddies",`r`n    price: 499,`r`n    description: "An adorable smiling Pikachu plush toy with bright rosy cheeks and velvety soft ears.",`r`n    image: "assets/images/products/pikachu.png",`r`n    badge: "Best Seller"
+    id: "prod-1",
+    name: "Cheerful Pikachu Soft Toy",
+    category: "teddies",
+    price: 499,
+    description: "An adorable smiling Pikachu plush toy with bright rosy cheeks and velvety soft ears.",
+    image: "assets/images/products/pikachu.png",
+    badge: "Best Seller"
   },
   {
-    id: "prod-2",`r`n    name: "Fluffy Husky Dog Soft Toy",`r`n    category: "teddies",`r`n    price: 799,`r`n    description: "Realistic white and grey husky puppy plush toy with gold sparkle eyes and a cute gold collar bell.",`r`n    image: "assets/images/products/husky_plush.png",`r`n    badge: "Premium"
+    id: "prod-2",
+    name: "Fluffy Husky Dog Soft Toy",
+    category: "teddies",
+    price: 799,
+    description: "Realistic white and grey husky puppy plush toy with gold sparkle eyes and a cute gold collar bell.",
+    image: "assets/images/products/husky_plush.png",
+    badge: "Premium"
   },
   {
     id: "prod-3",
@@ -25,10 +37,22 @@ const products = [
     badge: ""
   },
   {
-    id: "prod-4",`r`n    name: "Hello Kitty Purple Bee Plush",`r`n    category: "teddies",`r`n    price: 549,`r`n    description: "Authentic Hello Kitty plush toy in a purple striped honeybee dress with matching hairbow.",`r`n    image: "assets/images/products/hellokitty_purple.png",`r`n    badge: "Customer Favorite"
+    id: "prod-4",
+    name: "Hello Kitty Purple Bee Plush",
+    category: "teddies",
+    price: 549,
+    description: "Authentic Hello Kitty plush toy in a purple striped honeybee dress with matching hairbow.",
+    image: "assets/images/products/hellokitty_purple.png",
+    badge: "Customer Favorite"
   },
   {
-    id: "prod-5",`r`n    name: "Hello Kitty Pink Bee Plush",`r`n    category: "teddies",`r`n    price: 549,`r`n    description: "Charming Hello Kitty plush toy wearing a cute pink striped honeybee dress.",`r`n    image: "assets/images/products/hellokitty_pink.png",`r`n    badge: "New Arrival"
+    id: "prod-5",
+    name: "Hello Kitty Pink Bee Plush",
+    category: "teddies",
+    price: 549,
+    description: "Charming Hello Kitty plush toy wearing a cute pink striped honeybee dress.",
+    image: "assets/images/products/hellokitty_pink.png",
+    badge: "New Arrival"
   },
   {
     id: "prod-6",
@@ -49,7 +73,13 @@ const products = [
     badge: ""
   },
   {
-    id: "prod-8",`r`n    name: "Velvet Beige Long-Ear Bunny",`r`n    category: "teddies",`r`n    price: 349,`r`n    description: "Fluffy beige bunny rabbit plush featuring extra-long floppy ears and a neat satin bow.",`r`n    image: "assets/images/products/bunny_beige.png",`r`n    badge: "Classic Choice"
+    id: "prod-8",
+    name: "Velvet Beige Long-Ear Bunny",
+    category: "teddies",
+    price: 349,
+    description: "Fluffy beige bunny rabbit plush featuring extra-long floppy ears and a neat satin bow.",
+    image: "assets/images/products/bunny_beige.png",
+    badge: "Classic Choice"
   },
   {
     id: "prod-9",
@@ -70,7 +100,13 @@ const products = [
     badge: ""
   },
   {
-    id: "prod-11",`r`n    name: "Velvet Long-Ear Bunny Trio",`r`n    category: "teddies",`r`n    price: 899,`r`n    description: "Set of three adorable fluffy bunnies with satin ribbons. Includes soft beige, pastel pink, and slate grey bunnies.",`r`n    image: "assets/images/products/bunnies_trio.png",`r`n    badge: "Trio Deal"
+    id: "prod-11",
+    name: "Velvet Long-Ear Bunny Trio",
+    category: "teddies",
+    price: 899,
+    description: "Set of three adorable fluffy bunnies with satin ribbons. Includes soft beige, pastel pink, and slate grey bunnies.",
+    image: "assets/images/products/bunnies_trio.png",
+    badge: "Trio Deal"
   },
   {
     id: "prod-12",
@@ -145,7 +181,13 @@ const products = [
     badge: ""
   },
   {
-    id: "prod-20",`r`n    name: "Pink Bunny-Suit Plush Doll",`r`n    category: "teddies",`r`n    price: 449,`r`n    description: "A super cute plush doll wearing a soft pink bunny suit. Features sweet embroidered eyes.",`r`n    image: "assets/images/products/bunny_doll.png",`r`n    badge: "Kids Favorite"
+    id: "prod-20",
+    name: "Pink Bunny-Suit Plush Doll",
+    category: "teddies",
+    price: 449,
+    description: "A super cute plush doll wearing a soft pink bunny suit. Features sweet embroidered eyes.",
+    image: "assets/images/products/bunny_doll.png",
+    badge: "Kids Favorite"
   },
   {
     id: "prod-21",
@@ -319,7 +361,13 @@ const products = [
     badge: ""
   },
   {
-    id: "prod-40",`r`n    name: "Happy Avocado Bunny Plush",`r`n    category: "teddies",`r`n    price: 499,`r`n    description: "Vibrant green avocado plush toy featuring a smiling face and a cute pink bunny hat.",`r`n    image: "assets/images/products/avocado_plush.png",`r`n    badge: "Trending"
+    id: "prod-40",
+    name: "Happy Avocado Bunny Plush",
+    category: "teddies",
+    price: 499,
+    description: "Vibrant green avocado plush toy featuring a smiling face and a cute pink bunny hat.",
+    image: "assets/images/products/avocado_plush.png",
+    badge: "Trending"
   },
   {
     id: "prod-41",
@@ -493,7 +541,13 @@ const products = [
     badge: ""
   },
   {
-    id: "prod-60",`r`n    name: "Embroidered Pink Shark Plush",`r`n    category: "teddies",`r`n    price: 599,`r`n    description: "Bright pink friendly shark plush toy with 'Sharks' embroidered on the side.",`r`n    image: "assets/images/products/shark_plush.png",`r`n    badge: "Sleep Companion"
+    id: "prod-60",
+    name: "Embroidered Pink Shark Plush",
+    category: "teddies",
+    price: 599,
+    description: "Bright pink friendly shark plush toy with 'Sharks' embroidered on the side.",
+    image: "assets/images/products/shark_plush.png",
+    badge: "Sleep Companion"
   },
   {
     id: "prod-61",
@@ -667,7 +721,13 @@ const products = [
     badge: ""
   },
   {
-    id: "prod-80",`r`n    name: "Dora Explorer Plush Doll",`r`n    category: "toys",`r`n    price: 499,`r`n    description: "Huggable soft Dora the Explorer adventure doll complete with her signature purple backpack.",`r`n    image: "assets/images/products/dora_doll.png",`r`n    badge: "Adventure Play"
+    id: "prod-80",
+    name: "Dora Explorer Plush Doll",
+    category: "toys",
+    price: 499,
+    description: "Huggable soft Dora the Explorer adventure doll complete with her signature purple backpack.",
+    image: "assets/images/products/dora_doll.png",
+    badge: "Adventure Play"
   },
   {
     id: "prod-81",
@@ -841,7 +901,13 @@ const products = [
     badge: ""
   },
   {
-    id: "prod-100",`r`n    name: "Fluffy Husky Dog (Front View)",`r`n    category: "teddies",`r`n    price: 799,`r`n    description: "Front view of our realistic husky puppy plush toy. Cozy and soft.",`r`n    image: "assets/images/products/husky_plush.png",`r`n    badge: "Highly Detailed"
+    id: "prod-100",
+    name: "Fluffy Husky Dog (Front View)",
+    category: "teddies",
+    price: 799,
+    description: "Front view of our realistic husky puppy plush toy. Cozy and soft.",
+    image: "assets/images/products/husky_plush.png",
+    badge: "Highly Detailed"
   },
   {
     id: "prod-101",
@@ -1735,7 +1801,13 @@ const products = [
     badge: ""
   },
   {
-    id: "prod-200",`r`n    name: "Hearts & Sparkles Yellow Unicorn",`r`n    category: "teddies",`r`n    price: 499,`r`n    description: "Cheerful yellow unicorn plush with soft turquoise mane and colorful embroidered hearts.",`r`n    image: "assets/images/products/unicorn_heart.png",`r`n    badge: "Magical"
+    id: "prod-200",
+    name: "Hearts & Sparkles Yellow Unicorn",
+    category: "teddies",
+    price: 499,
+    description: "Cheerful yellow unicorn plush with soft turquoise mane and colorful embroidered hearts.",
+    image: "assets/images/products/unicorn_heart.png",
+    badge: "Magical"
   },
   {
     id: "prod-201",
@@ -3529,7 +3601,13 @@ const products = [
     badge: ""
   },
   {
-    id: "prod-400",`r`n    name: "Harry Angel Fashion Dolls (3-Pack)",`r`n    category: "toys",`r`n    price: 699,`r`n    description: "Pack of three classic fashion dolls in colourful summer dresses (pink, red, yellow).",`r`n    image: "assets/images/products/fashion_dolls.png",`r`n    badge: "Complete Set"
+    id: "prod-400",
+    name: "Harry Angel Fashion Dolls (3-Pack)",
+    category: "toys",
+    price: 699,
+    description: "Pack of three classic fashion dolls in colourful summer dresses (pink, red, yellow).",
+    image: "assets/images/products/fashion_dolls.png",
+    badge: "Complete Set"
   },
   {
     id: "prod-401",
@@ -5513,6 +5591,7 @@ document.addEventListener("DOMContentLoaded", () => {
   renderCatalog();
   setupEventListeners();
 });
+
 
 
 
