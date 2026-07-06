@@ -1,4 +1,4 @@
-/**
+﻿/**
  * Classic Store Application Logic
  * Est. 1996 - Thirukoilur
  * Handcrafted Vanilla JS for state management, catalog filtering, and WhatsApp integrations.
@@ -136,22 +136,10 @@ const products = [
     badge: ""
   },
   {
-    id: "prod-15",
-    name: "School Backpack 15",
-    category: "bags",
-    price: 619,
-    description: "Authentic premium quality bags item from Classic Store, Thirukoilur. Made with child-safe, non-toxic materials.",
-    image: "assets/images/products/product_15.jpg",
-    badge: ""
+    id: "prod-15",`r`n    name: "Reversible Sad Octopus Plush",`r`n    category: "teddies",`r`n    price: 299,`r`n    description: "Pink reversible mood octopus plush toy showing a grumpy sad face. Flip it inside out to change its expression!",`r`n    image: "assets/images/products/octopus_sad.png",`r`n    badge: "Cute Choice"
   },
   {
-    id: "prod-16",
-    name: "Classic Soft Toy 16",
-    category: "teddies",
-    price: 399,
-    description: "Authentic premium quality teddies item from Classic Store, Thirukoilur. Made with child-safe, non-toxic materials.",
-    image: "assets/images/products/product_16.jpg",
-    badge: ""
+    id: "prod-16",`r`n    name: "Reversible Happy Octopus Plush",`r`n    category: "teddies",`r`n    price: 299,`r`n    description: "Bright blue reversible mood octopus plush showing a happy smiling face. Ultra-soft and super huggable.",`r`n    image: "assets/images/products/octopus_happy_blue.png",`r`n    badge: "Trending"
   },
   {
     id: "prod-17",
@@ -190,13 +178,7 @@ const products = [
     badge: "Kids Favorite"
   },
   {
-    id: "prod-21",
-    name: "Joyful Kids Toy 21",
-    category: "toys",
-    price: 419,
-    description: "Authentic premium quality toys item from Classic Store, Thirukoilur. Made with child-safe, non-toxic materials.",
-    image: "assets/images/products/product_21.jpg",
-    badge: ""
+    id: "prod-21",`r`n    name: "Pastel Grey Happy Octopus Plush",`r`n    category: "teddies",`r`n    price: 299,`r`n    description: "Sweet grey and pink reversible octopus plush with a cheerful smile. Soft velvet fabric.",`r`n    image: "assets/images/products/octopus_happy_grey.png",`r`n    badge: "Best Seller"
   },
   {
     id: "prod-22",
@@ -226,13 +208,7 @@ const products = [
     badge: ""
   },
   {
-    id: "prod-25",
-    name: "Joyful Kids Toy 25",
-    category: "toys",
-    price: 459,
-    description: "Authentic premium quality toys item from Classic Store, Thirukoilur. Made with child-safe, non-toxic materials.",
-    image: "assets/images/products/product_25.jpg",
-    badge: ""
+    id: "prod-25",`r`n    name: "Sandy Camel Adventure Plush",`r`n    category: "teddies",`r`n    price: 449,`r`n    description: "Adorable brown desert camel plush toy with fluffy hump hair and a detailed bridle harness.",`r`n    image: "assets/images/products/camel_plush.png",`r`n    badge: "Unique Gift"
   },
   {
     id: "prod-26",
@@ -271,13 +247,7 @@ const products = [
     badge: "Kid Approved"
   },
   {
-    id: "prod-30",
-    name: "Classic Gift 30",
-    category: "gifts",
-    price: 779,
-    description: "Authentic premium quality gifts item from Classic Store, Thirukoilur. Made with child-safe, non-toxic materials.",
-    image: "assets/images/products/product_30.jpg",
-    badge: ""
+    id: "prod-30",`r`n    name: "Rainbow Pastel Unicorn Plush",`r`n    category: "teddies",`r`n    price: 499,`r`n    description: "Magical unicorn plush toy with beautiful rainbow tie-dye colors, shiny pink horn, and colorful stitched tail.",`r`n    image: "assets/images/products/unicorn_pastel.png",`r`n    badge: "Magical Collection"
   },
   {
     id: "prod-31",
@@ -316,13 +286,7 @@ const products = [
     badge: ""
   },
   {
-    id: "prod-35",
-    name: "School Backpack 35",
-    category: "bags",
-    price: 799,
-    description: "Authentic premium quality bags item from Classic Store, Thirukoilur. Made with child-safe, non-toxic materials.",
-    image: "assets/images/products/product_35.jpg",
-    badge: ""
+    id: "prod-35",`r`n    name: "Joyful Minion Buddy Plush",`r`n    category: "teddies",`r`n    price: 699,`r`n    description: "Authentic smiling Minion soft plush toy wearing blue overalls and signature silver goggles. Large hugging size.",`r`n    image: "assets/images/products/minion_plush.png",`r`n    badge: "Popular Choice"
   },
   {
     id: "prod-36",
@@ -406,13 +370,7 @@ const products = [
     badge: ""
   },
   {
-    id: "prod-45",
-    name: "Joyful Kids Toy 45",
-    category: "toys",
-    price: 679,
-    description: "Authentic premium quality toys item from Classic Store, Thirukoilur. Made with child-safe, non-toxic materials.",
-    image: "assets/images/products/product_45.jpg",
-    badge: ""
+    id: "prod-45",`r`n    name: "Cap & Hoodie Boy Plush Doll",`r`n    category: "toys",`r`n    price: 399,`r`n    description: "Cute boy soft doll dressed in a stylish blue cap and matching drawstring blue hoodie. Fun play buddy.",`r`n    image: "assets/images/products/boy_doll.png",`r`n    badge: "Adventure Play"
   },
   {
     id: "prod-46",
@@ -4501,13 +4459,7 @@ const products = [
     badge: ""
   },
   {
-    id: "prod-500",
-    name: "Classic Soft Toy 500",
-    category: "teddies",
-    price: 789,
-    description: "Authentic premium quality teddies item from Classic Store, Thirukoilur. Made with child-safe, non-toxic materials.",
-    image: "assets/images/products/product_500.jpg",
-    badge: ""
+    id: "prod-500",`r`n    name: "Silver Horn Blue Unicorn",`r`n    category: "teddies",`r`n    price: 549,`r`n    description: "Magical pastel blue unicorn plush toy with a shiny silver horn, silver hooves, and a soft lavender mane.",`r`n    image: "assets/images/products/unicorn_blue.png",`r`n    badge: "Collector Special"
   },
   {
     id: "prod-501",
@@ -5361,7 +5313,7 @@ function renderCatalog() {
         <h3 class="product-title">${product.name}</h3>
         <p class="product-description">${product.description}</p>
         <div class="product-price-action">
-          <span class="product-price">Ã¢â€šÂ¹${product.price.toLocaleString("en-IN")}</span>
+          <span class="product-price">ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¹${product.price.toLocaleString("en-IN")}</span>
           <button class="card-btn" onclick="selectProductForOrder('${product.id}')" title="Inquire & Order" aria-label="Inquire and order this item">
             <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
               <path stroke-linecap="round" stroke-linejoin="round" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path>
@@ -5409,7 +5361,7 @@ function populateOrderDropdown() {
   products.forEach(product => {
     const opt = document.createElement("option");
     opt.value = product.id;
-    opt.textContent = `${product.name} (Ã¢â€šÂ¹${product.price.toLocaleString("en-IN")})`;
+    opt.textContent = `${product.name} (ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¹${product.price.toLocaleString("en-IN")})`;
     orderItemSelect.appendChild(opt);
   });
 }
@@ -5420,7 +5372,7 @@ function updatePriceEstimate() {
   
   const selectedId = orderItemSelect.value;
   if (!selectedId) {
-    priceEstimateEl.innerHTML = "Ã¢â€šÂ¹0";
+    priceEstimateEl.innerHTML = "ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¹0";
     return;
   }
   
@@ -5440,7 +5392,7 @@ function updatePriceEstimate() {
   });
   
   const total = product.price + wrappingCost;
-  priceEstimateEl.innerHTML = `Ã¢â€šÂ¹${total.toLocaleString("en-IN")}`;
+  priceEstimateEl.innerHTML = `ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¹${total.toLocaleString("en-IN")}`;
 }
 
 // WhatsApp Message Construction
@@ -5477,18 +5429,18 @@ function handleOrderSubmission(e) {
   const total = product.price + wrappingCost;
   
   // Construct formatted text message
-  let text = `*New Order Request - Classic Store Ã°Å¸Å½Â*\n\n`;
-  text += `Ã°Å¸â€˜Â¤ *Customer Name:* ${customerName}\n`;
-  text += `Ã°Å¸Â§Â¸ *Item:* ${product.name}\n`;
-  text += `Ã°Å¸ÂÂ·Ã¯Â¸Â *Category:* ${product.category.toUpperCase()}\n`;
-  text += `Ã°Å¸Å½Â *Gift Wrapping:* ${wrappingText} (+Ã¢â€šÂ¹${wrappingCost})\n`;
+  let text = `*New Order Request - Classic Store ÃƒÂ°Ã…Â¸Ã…Â½Ã‚Â*\n\n`;
+  text += `ÃƒÂ°Ã…Â¸Ã¢â‚¬ËœÃ‚Â¤ *Customer Name:* ${customerName}\n`;
+  text += `ÃƒÂ°Ã…Â¸Ã‚Â§Ã‚Â¸ *Item:* ${product.name}\n`;
+  text += `ÃƒÂ°Ã…Â¸Ã‚ÂÃ‚Â·ÃƒÂ¯Ã‚Â¸Ã‚Â *Category:* ${product.category.toUpperCase()}\n`;
+  text += `ÃƒÂ°Ã…Â¸Ã…Â½Ã‚Â *Gift Wrapping:* ${wrappingText} (+ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¹${wrappingCost})\n`;
   
   if (customMessage) {
-    text += `Ã¢Å“â€°Ã¯Â¸Â *Gift Card Note:* "${customMessage}"\n`;
+    text += `ÃƒÂ¢Ã…â€œÃ¢â‚¬Â°ÃƒÂ¯Ã‚Â¸Ã‚Â *Gift Card Note:* "${customMessage}"\n`;
   }
   
-  text += `\nÃ°Å¸â€™Â° *Total Price Estimate:* Ã¢â€šÂ¹${total.toLocaleString("en-IN")}\n\n`;
-  text += `Ã°Å¸â€œÂ _Please coordinate shipping details and payment option in this chat._`;
+  text += `\nÃƒÂ°Ã…Â¸Ã¢â‚¬â„¢Ã‚Â° *Total Price Estimate:* ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¹${total.toLocaleString("en-IN")}\n\n`;
+  text += `ÃƒÂ°Ã…Â¸Ã¢â‚¬Å“Ã‚Â _Please coordinate shipping details and payment option in this chat._`;
   
   // URL Encode
   const encodedText = encodeURIComponent(text);
@@ -5591,6 +5543,7 @@ document.addEventListener("DOMContentLoaded", () => {
   renderCatalog();
   setupEventListeners();
 });
+
 
 
 
