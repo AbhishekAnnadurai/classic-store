@@ -94,6 +94,26 @@ const products = [
     description: "Intricately hand-carved walnut music box playing a beautiful classic lullaby theme via mechanical wind-up.",
     image: "assets/images/gift.png",
     badge: "Collector's Item"
+  },
+  
+  // School Bags Category
+  {
+    id: "bag-dream",
+    name: "Dream Big Rainbow Backpack",
+    category: "bags",
+    price: 899,
+    description: "Vibrant and durable school backpack with rainbow accents. Featuring ergonomic padded straps, dynamic colors, and spacious compartments.",
+    image: "assets/images/bag.png",
+    badge: "Logo Featured"
+  },
+  {
+    id: "bag-classic",
+    name: "Adventure Premium School Bag",
+    category: "bags",
+    price: 1199,
+    description: "Heavy-duty dual strap backpack with reinforced canvas, water bottle nets, and modern secure zip closures.",
+    image: "assets/images/bag.png",
+    badge: "New Arrival"
   }
 ];
 
