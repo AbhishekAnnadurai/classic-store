@@ -452,12 +452,12 @@ const products = [
   },
   {
     id: "prod-50",
-    name: "Classic Gift 50",
-    category: "gifts",
-    price: 1039,
-    description: "Authentic premium quality gifts item from Classic Store, Thirukoilur. Made with child-safe, non-toxic materials.",
-    image: "assets/images/products/product_50.jpg",
-    badge: ""
+    name: "Mint Cap & Hoodie Boy Doll",
+    category: "toys",
+    price: 399,
+    description: "Cute plush boy doll wearing a stylish mint green cap and matching drawstring mint green hoodie. Fun play buddy.",
+    image: "assets/images/products/mint_cap_doll.png",
+    badge: "Adventure Play"
   },
   {
     id: "prod-51",
@@ -632,12 +632,12 @@ const products = [
   },
   {
     id: "prod-70",
-    name: "Classic Gift 70",
-    category: "gifts",
-    price: 1299,
-    description: "Authentic premium quality gifts item from Classic Store, Thirukoilur. Made with child-safe, non-toxic materials.",
-    image: "assets/images/products/product_70.jpg",
-    badge: ""
+    name: "Golden Crown Elephant Plush",
+    category: "teddies",
+    price: 499,
+    description: "Royal baby elephant plush toy with a shiny golden crown and soft golden ears. Perfect nursery gift.",
+    image: "assets/images/products/crown_elephant.png",
+    badge: "Royal Collection"
   },
   {
     id: "prod-71",
@@ -812,12 +812,12 @@ const products = [
   },
   {
     id: "prod-90",
-    name: "Classic Gift 90",
-    category: "gifts",
-    price: 1559,
-    description: "Authentic premium quality gifts item from Classic Store, Thirukoilur. Made with child-safe, non-toxic materials.",
-    image: "assets/images/products/product_90.jpg",
-    badge: ""
+    name: "Pink Bow Ribbon Bunny Plush",
+    category: "teddies",
+    price: 349,
+    description: "Adorable pink fluffy bunny plush toy with a matching pink bow ribbon. Ultra-soft hugging companion.",
+    image: "assets/images/products/pink_bow_bunny.png",
+    badge: "Fluffy Friend"
   },
   {
     id: "prod-91",
@@ -992,12 +992,12 @@ const products = [
   },
   {
     id: "prod-110",
-    name: "Classic Gift 110",
-    category: "gifts",
-    price: 1819,
-    description: "Authentic premium quality gifts item from Classic Store, Thirukoilur. Made with child-safe, non-toxic materials.",
-    image: "assets/images/products/product_110.jpg",
-    badge: ""
+    name: "Teddy Bear Pink Plush Backpack",
+    category: "bags",
+    price: 599,
+    description: "Delightful pink plush backpack featuring an integrated cute teddy bear on the back. Soft and functional child bag.",
+    image: "assets/images/products/teddy_backpack.png",
+    badge: "Back To School"
   },
   {
     id: "prod-111",
@@ -1082,12 +1082,12 @@ const products = [
   },
   {
     id: "prod-120",
-    name: "Classic Soft Toy 120",
+    name: "Pink Nose Green Bunny Plush",
     category: "teddies",
-    price: 1129,
-    description: "Authentic premium quality teddies item from Classic Store, Thirukoilur. Made with child-safe, non-toxic materials.",
-    image: "assets/images/products/product_120.jpg",
-    badge: ""
+    price: 329,
+    description: "Sweet grey-green and white bunny plush toy with shiny black eyes and a bright pink nose.",
+    image: "assets/images/products/grey_green_bunny.png",
+    badge: "New Arrival"
   },
   {
     id: "prod-121",
@@ -1262,12 +1262,12 @@ const products = [
   },
   {
     id: "prod-140",
-    name: "Classic Soft Toy 140",
+    name: "Happy Green Turtle Plush",
     category: "teddies",
-    price: 1269,
-    description: "Authentic premium quality teddies item from Classic Store, Thirukoilur. Made with child-safe, non-toxic materials.",
-    image: "assets/images/products/product_140.jpg",
-    badge: ""
+    price: 399,
+    description: "Charming green and yellow turtle plush toy with big friendly eyes and a soft velvet shell. Perfect cuddle buddy.",
+    image: "assets/images/products/green_turtle.png",
+    badge: "Sea Life Friend"
   },
   {
     id: "prod-141",
@@ -1352,12 +1352,12 @@ const products = [
   },
   {
     id: "prod-150",
-    name: "Classic Gift 150",
-    category: "gifts",
-    price: 839,
-    description: "Authentic premium quality gifts item from Classic Store, Thirukoilur. Made with child-safe, non-toxic materials.",
-    image: "assets/images/products/product_150.jpg",
-    badge: ""
+    name: "Glitter Eyes Yellow Dino Plush",
+    category: "teddies",
+    price: 419,
+    description: "Sweet yellow baby dinosaur plush toy with a soft white belly and big glittery green eyes.",
+    image: "assets/images/products/yellow_dino.png",
+    badge: "Prehistoric Buddy"
   },
   {
     id: "prod-151",
@@ -5591,6 +5591,8 @@ document.addEventListener("DOMContentLoaded", () => {
   renderCatalog();
   setupEventListeners();
 });
+
+
 
 
 
