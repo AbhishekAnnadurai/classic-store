@@ -136,10 +136,22 @@ const products = [
     badge: ""
   },
   {
-    id: "prod-15",`r`n    name: "Reversible Sad Octopus Plush",`r`n    category: "teddies",`r`n    price: 299,`r`n    description: "Pink reversible mood octopus plush toy showing a grumpy sad face. Flip it inside out to change its expression!",`r`n    image: "assets/images/products/octopus_sad.png",`r`n    badge: "Cute Choice"
+    id: "prod-15",
+    name: "Reversible Sad Octopus Plush",
+    category: "teddies",
+    price: 299,
+    description: "Pink reversible mood octopus plush toy showing a grumpy sad face. Flip it inside out to change its expression!",
+    image: "assets/images/products/octopus_sad.png",
+    badge: "Cute Choice"
   },
   {
-    id: "prod-16",`r`n    name: "Reversible Happy Octopus Plush",`r`n    category: "teddies",`r`n    price: 299,`r`n    description: "Bright blue reversible mood octopus plush showing a happy smiling face. Ultra-soft and super huggable.",`r`n    image: "assets/images/products/octopus_happy_blue.png",`r`n    badge: "Trending"
+    id: "prod-16",
+    name: "Reversible Happy Octopus Plush",
+    category: "teddies",
+    price: 299,
+    description: "Bright blue reversible mood octopus plush showing a happy smiling face. Ultra-soft and super huggable.",
+    image: "assets/images/products/octopus_happy_blue.png",
+    badge: "Trending"
   },
   {
     id: "prod-17",
@@ -178,7 +190,13 @@ const products = [
     badge: "Kids Favorite"
   },
   {
-    id: "prod-21",`r`n    name: "Pastel Grey Happy Octopus Plush",`r`n    category: "teddies",`r`n    price: 299,`r`n    description: "Sweet grey and pink reversible octopus plush with a cheerful smile. Soft velvet fabric.",`r`n    image: "assets/images/products/octopus_happy_grey.png",`r`n    badge: "Best Seller"
+    id: "prod-21",
+    name: "Pastel Grey Happy Octopus Plush",
+    category: "teddies",
+    price: 299,
+    description: "Sweet grey and pink reversible octopus plush with a cheerful smile. Soft velvet fabric.",
+    image: "assets/images/products/octopus_happy_grey.png",
+    badge: "Best Seller"
   },
   {
     id: "prod-22",
@@ -208,7 +226,13 @@ const products = [
     badge: ""
   },
   {
-    id: "prod-25",`r`n    name: "Sandy Camel Adventure Plush",`r`n    category: "teddies",`r`n    price: 449,`r`n    description: "Adorable brown desert camel plush toy with fluffy hump hair and a detailed bridle harness.",`r`n    image: "assets/images/products/camel_plush.png",`r`n    badge: "Unique Gift"
+    id: "prod-25",
+    name: "Sandy Camel Adventure Plush",
+    category: "teddies",
+    price: 449,
+    description: "Adorable brown desert camel plush toy with fluffy hump hair and a detailed bridle harness.",
+    image: "assets/images/products/camel_plush.png",
+    badge: "Unique Gift"
   },
   {
     id: "prod-26",
@@ -247,7 +271,13 @@ const products = [
     badge: "Kid Approved"
   },
   {
-    id: "prod-30",`r`n    name: "Rainbow Pastel Unicorn Plush",`r`n    category: "teddies",`r`n    price: 499,`r`n    description: "Magical unicorn plush toy with beautiful rainbow tie-dye colors, shiny pink horn, and colorful stitched tail.",`r`n    image: "assets/images/products/unicorn_pastel.png",`r`n    badge: "Magical Collection"
+    id: "prod-30",
+    name: "Rainbow Pastel Unicorn Plush",
+    category: "teddies",
+    price: 499,
+    description: "Magical unicorn plush toy with beautiful rainbow tie-dye colors, shiny pink horn, and colorful stitched tail.",
+    image: "assets/images/products/unicorn_pastel.png",
+    badge: "Magical Collection"
   },
   {
     id: "prod-31",
@@ -286,7 +316,13 @@ const products = [
     badge: ""
   },
   {
-    id: "prod-35",`r`n    name: "Joyful Minion Buddy Plush",`r`n    category: "teddies",`r`n    price: 699,`r`n    description: "Authentic smiling Minion soft plush toy wearing blue overalls and signature silver goggles. Large hugging size.",`r`n    image: "assets/images/products/minion_plush.png",`r`n    badge: "Popular Choice"
+    id: "prod-35",
+    name: "Joyful Minion Buddy Plush",
+    category: "teddies",
+    price: 699,
+    description: "Authentic smiling Minion soft plush toy wearing blue overalls and signature silver goggles. Large hugging size.",
+    image: "assets/images/products/minion_plush.png",
+    badge: "Popular Choice"
   },
   {
     id: "prod-36",
@@ -370,7 +406,13 @@ const products = [
     badge: ""
   },
   {
-    id: "prod-45",`r`n    name: "Cap & Hoodie Boy Plush Doll",`r`n    category: "toys",`r`n    price: 399,`r`n    description: "Cute boy soft doll dressed in a stylish blue cap and matching drawstring blue hoodie. Fun play buddy.",`r`n    image: "assets/images/products/boy_doll.png",`r`n    badge: "Adventure Play"
+    id: "prod-45",
+    name: "Cap & Hoodie Boy Plush Doll",
+    category: "toys",
+    price: 399,
+    description: "Cute boy soft doll dressed in a stylish blue cap and matching drawstring blue hoodie. Fun play buddy.",
+    image: "assets/images/products/boy_doll.png",
+    badge: "Adventure Play"
   },
   {
     id: "prod-46",
@@ -4459,7 +4501,13 @@ const products = [
     badge: ""
   },
   {
-    id: "prod-500",`r`n    name: "Silver Horn Blue Unicorn",`r`n    category: "teddies",`r`n    price: 549,`r`n    description: "Magical pastel blue unicorn plush toy with a shiny silver horn, silver hooves, and a soft lavender mane.",`r`n    image: "assets/images/products/unicorn_blue.png",`r`n    badge: "Collector Special"
+    id: "prod-500",
+    name: "Silver Horn Blue Unicorn",
+    category: "teddies",
+    price: 549,
+    description: "Magical pastel blue unicorn plush toy with a shiny silver horn, silver hooves, and a soft lavender mane.",
+    image: "assets/images/products/unicorn_blue.png",
+    badge: "Collector Special"
   },
   {
     id: "prod-501",
@@ -5543,6 +5591,7 @@ document.addEventListener("DOMContentLoaded", () => {
   renderCatalog();
   setupEventListeners();
 });
+
 
 
 
