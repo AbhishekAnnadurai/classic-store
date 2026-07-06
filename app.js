@@ -1,11 +1,11 @@
-﻿/**
+/**
  * Classic Store Application Logic
  * Est. 1996 - Thirukoilur
  * Handcrafted Vanilla JS for state management, catalog filtering, and WhatsApp integrations.
  */
 
 // Configuration
-const WHATSAPP_NUMBER = "919443261234"; // Classic Store's phone number (with country code, no + or spaces)
+const WHATSAPP_NUMBER = "919976981768"; // Classic Store's phone number (with country code, no + or spaces)
 
 // Product Database
 const products = [
