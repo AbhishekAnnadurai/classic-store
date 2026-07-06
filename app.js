@@ -11,6 +11,33 @@ const WHATSAPP_NUMBER = "919443261234"; // Classic Store's phone number (with co
 const products = [
   // Teddy Bears Category
   {
+    id: "teddy-pikachu",
+    name: "Cheerful Pikachu Soft Toy",
+    category: "teddies",
+    price: 499,
+    description: "An adorable smiling Pikachu plush toy with bright rosy cheeks and velvety soft ears. Made with premium stitching.",
+    image: "assets/images/pikachu.png",
+    badge: "Customer Choice"
+  },
+  {
+    id: "teddy-hellokitty",
+    name: "Hello Kitty Purple Bee Plush",
+    category: "teddies",
+    price: 549,
+    description: "Authentic Hello Kitty plush toy in a purple striped honeybee dress with matching hairbow. Super soft and premium quality.",
+    image: "assets/images/hellokitty.png",
+    badge: "Cute Favorite"
+  },
+  {
+    id: "teddy-bunnies",
+    name: "Velvet Long-Ear Bunny Trio",
+    category: "teddies",
+    price: 899,
+    description: "Set of three adorable fluffy bunnies with satin ribbons. Includes soft beige, pastel pink, and slate grey bunnies.",
+    image: "assets/images/bunnies.png",
+    badge: "Trio Deal"
+  },
+  {
     id: "teddy-giant",
     name: "Jumbo Huggable Teddy Bear (4 Feet)",
     category: "teddies",
