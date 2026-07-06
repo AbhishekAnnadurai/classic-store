@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Classic Store Application Logic
  * Est. 1996 - Thirukoilur
  * Handcrafted Vanilla JS for state management, catalog filtering, and WhatsApp integrations.
@@ -5361,7 +5361,7 @@ function renderCatalog() {
         <h3 class="product-title">${product.name}</h3>
         <p class="product-description">${product.description}</p>
         <div class="product-price-action">
-          <span class="product-price">ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¹${product.price.toLocaleString("en-IN")}</span>
+            <span class="product-price">₹${product.price.toLocaleString("en-IN")}</span>
           <button class="card-btn" onclick="selectProductForOrder('${product.id}')" title="Inquire & Order" aria-label="Inquire and order this item">
             <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
               <path stroke-linecap="round" stroke-linejoin="round" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path>
@@ -5409,7 +5409,7 @@ function populateOrderDropdown() {
   products.forEach(product => {
     const opt = document.createElement("option");
     opt.value = product.id;
-    opt.textContent = `${product.name} (ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¹${product.price.toLocaleString("en-IN")})`;
+    opt.textContent = `${product.name} (₹${product.price.toLocaleString("en-IN")})`;
     orderItemSelect.appendChild(opt);
   });
 }
@@ -5420,7 +5420,7 @@ function updatePriceEstimate() {
   
   const selectedId = orderItemSelect.value;
   if (!selectedId) {
-    priceEstimateEl.innerHTML = "ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¹0";
+      priceEstimateEl.innerHTML = "₹0";
     return;
   }
   
@@ -5440,7 +5440,7 @@ function updatePriceEstimate() {
   });
   
   const total = product.price + wrappingCost;
-  priceEstimateEl.innerHTML = `ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¹${total.toLocaleString("en-IN")}`;
+  priceEstimateEl.innerHTML = `₹${total.toLocaleString("en-IN")}`;
 }
 
 // WhatsApp Message Construction
@@ -5477,18 +5477,18 @@ function handleOrderSubmission(e) {
   const total = product.price + wrappingCost;
   
   // Construct formatted text message
-  let text = `*New Order Request - Classic Store ÃƒÂ°Ã…Â¸Ã…Â½Ã‚Â*\n\n`;
-  text += `ÃƒÂ°Ã…Â¸Ã¢â‚¬ËœÃ‚Â¤ *Customer Name:* ${customerName}\n`;
-  text += `ÃƒÂ°Ã…Â¸Ã‚Â§Ã‚Â¸ *Item:* ${product.name}\n`;
-  text += `ÃƒÂ°Ã…Â¸Ã‚ÂÃ‚Â·ÃƒÂ¯Ã‚Â¸Ã‚Â *Category:* ${product.category.toUpperCase()}\n`;
-  text += `ÃƒÂ°Ã…Â¸Ã…Â½Ã‚Â *Gift Wrapping:* ${wrappingText} (+ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¹${wrappingCost})\n`;
+  let text = `*New Order Request - Classic Store 🎁*\n\n`;
+  text += `👤 *Customer Name:* ${customerName}\n`;
+  text += `🧸 *Item:* ${product.name}\n`;
+  text += `🏷️ *Category:* ${product.category.toUpperCase()}\n`;
+  text += `🎁 *Gift Wrapping:* ${wrappingText} (+₹${wrappingCost})\n`;
   
   if (customMessage) {
-    text += `ÃƒÂ¢Ã…â€œÃ¢â‚¬Â°ÃƒÂ¯Ã‚Â¸Ã‚Â *Gift Card Note:* "${customMessage}"\n`;
+      text += `✉️ *Gift Card Note:* "${customMessage}"\n`;
   }
   
-  text += `\nÃƒÂ°Ã…Â¸Ã¢â‚¬â„¢Ã‚Â° *Total Price Estimate:* ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¹${total.toLocaleString("en-IN")}\n\n`;
-  text += `ÃƒÂ°Ã…Â¸Ã¢â‚¬Å“Ã‚Â _Please coordinate shipping details and payment option in this chat._`;
+  text += `\n💰 *Total Price Estimate:* ₹${total.toLocaleString("en-IN")}\n\n`;
+  text += `💬 _Please coordinate shipping details and payment option in this chat._`;
   
   // URL Encode
   const encodedText = encodeURIComponent(text);
